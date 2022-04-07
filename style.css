@@ -1,0 +1,75 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color: #121214;
+    color: whitesmoke;
+    font-family: 'IBM Plex Sans';
+    
+}
+section {
+    border: 1.5px solid #121214;
+    width: 760px;
+    height: 270px;
+    bottom: 30%;
+    cursor: pointer;
+}
+
+.box2, h1, ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 60px;
+    height: 68px;
+}
+img {
+    border-radius: 8px;
+}
+.box1 {
+    color: #1E1E20;
+    border: 1.5px solid;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    overflow: hidden;
+}
+.box {
+    margin: 45px;
+    height: 65px;  
+}
+.color {
+    background-color: #1E1E20;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+}
+
+h3 {
+    color: #9C9C9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+.box3:hover {
+    transform: scale(1.5);
+}
+.gp {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 32%;
+    margin-top: 40%;
+    width: 250px;
+    height: 50px;
+}
+.gp:hover {
+    color: black;
+    background-color: whitesmoke;
+    bottom: 30%;
+    cursor: pointer;
+}
