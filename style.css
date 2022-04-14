@@ -1,14 +1,13 @@
+@import url('fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@100&família=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;1,100&family=Open+Sans:ital,wght@1.300&display=swap');
+
 html {
-    display: flex;
-    justify-content: center;
     background-color: #121214;
     color: whitesmoke;
-    font-family: 'IBM Plex Sans';
-    
+    font-family: 'Open Sans', sans-serif;
 }
 section {
     border: 1.5px solid #121214;
-    width: 760px;
+    width: 700px;
     height: 270px;
     bottom: 30%;
     cursor: pointer;
@@ -44,7 +43,6 @@ img {
     height: 160px;
     margin-left: 20px;
 }
-
 h3 {
     color: #9C9C9C;
     display: flex;
